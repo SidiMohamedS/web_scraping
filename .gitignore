@@ -1,27 +1,24 @@
+# Environnements virtuels
+ws_env/
+venv/
+env/
+.venv/
+ENV/
+
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv/
-ENV/
+*.egg-info/
 build/
 dist/
-*.egg-info/
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Données générées (décommente si tu ne veux pas les publier)
-# *.txt
-# output/
+# Données générées
+annuaire_avocat.txt
